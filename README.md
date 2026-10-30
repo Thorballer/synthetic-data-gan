@@ -2,11 +2,12 @@
 
 Conditional GANs and downstream real-versus-generated image classification experiments across MNIST, CIFAR-10, and rock-paper-scissors.
 
-## Project status
-
-Historical notebooks from Daniel Goldberg’s Kaggle account, organized for a maker portfolio. The model code is preserved, not rewritten during packaging. See [PROVENANCE.json](PROVENANCE.json) for original notebook URLs, timestamps, and SHA-256 hashes.
-
 ## Notebooks
+
+The 47 notebooks cover three datasets: MNIST, CIFAR-10, and rock-paper-scissors. `*-dcgan-*` notebooks generate images; `*-tester-*-real-data` and `*-tester-*-fake-data` notebooks train downstream classifiers. The two `synthetic-mnist-*` notebooks cover dataset generation and classification.
+
+<details>
+<summary>All notebooks and original Kaggle links</summary>
 
 - [cifar-10-tester-1-5-fake-data.ipynb](notebooks/cifar-10-tester-1-5-fake-data.ipynb) — [original Kaggle notebook](https://www.kaggle.com/code/thorballer/cifar-10-tester-1-5-fake-data)
 - [cifar-dcgan-1-5.ipynb](notebooks/cifar-dcgan-1-5.ipynb) — [original Kaggle notebook](https://www.kaggle.com/code/thorballer/cifar-dcgan-1-5)
@@ -56,11 +57,18 @@ Historical notebooks from Daniel Goldberg’s Kaggle account, organized for a ma
 - [synthetic-mnist-cnn-model.ipynb](notebooks/synthetic-mnist-cnn-model.ipynb) — [original Kaggle notebook](https://www.kaggle.com/code/thorballer/synthetic-mnist-cnn-model)
 - [synthetic-mnist-supervised-training-dataset-maker.ipynb](notebooks/synthetic-mnist-supervised-training-dataset-maker.ipynb) — [original Kaggle notebook](https://www.kaggle.com/code/thorballer/synthetic-mnist-supervised-training-dataset-maker)
 
+</details>
+
+The numbered notebooks preserve separate experimental configurations. The available exports do not establish whether synthetic data outperformed real data.
+
 ## Running
 
-Use the original Kaggle environment where possible: open the source notebook, attach its declared datasets/models, select the hardware expected by its setup cells, and run cells in order. Inspect any install, account-login, upload, or filesystem-changing cells before executing them.
+Open the original Kaggle notebook, attach its referenced data/models, choose the hardware expected by its setup cells, and run cells in order. Review install, login, and file-writing cells first.
 
-For a local adaptation, install the packages listed in `requirements.txt` in an isolated environment and adjust `/kaggle/input` paths. Those packages are inferred from imports, **not** a tested lockfile. Historical APIs and accelerator assumptions can require changes. Do not run all training notebooks at once.
+For local use, install `requirements.txt` and adapt `/kaggle/input` paths. Dependencies are inferred from imports, not a tested lockfile; older APIs may need adjustment.
+
+<details>
+<summary>Referenced datasets</summary>
 
 ### Referenced Kaggle datasets
 
@@ -84,14 +92,12 @@ For a local adaptation, install the packages listed in `requirements.txt` in an 
 - [thorballer/synthetic-cifar-4](https://www.kaggle.com/datasets/thorballer/synthetic-cifar-4)
 - [thorballer/synthetic-cifar-5](https://www.kaggle.com/datasets/thorballer/synthetic-cifar-5)
 
-## Results and limitations
+</details>
 
-The numbered 1/5–5/5 notebooks are preserved as separately named experimental runs; do not infer their exact meaning or aggregate outcomes without reading their configurations. No claim that synthetic data outperformed real data is established here. The earlier dataset-maker notebook includes TensorFlow DCGAN tutorial material with its original attribution.
+## Status and source
 
-The recovered Kaggle source exports contain no retained executed outputs; this repository therefore does not advertise a numeric result based on notebook titles or training settings. Training was not rerun as part of organization. Structural validation is not a runtime or scientific validation.
+These exports have no saved execution outputs. Training was not rerun, so this archive reports no benchmark scores.
 
-## Attribution and rights
+Daniel Goldberg's Kaggle notebooks are preserved with source links and hashes in [PROVENANCE.json](PROVENANCE.json). Documentation was added for this archive.
 
-Original notebook attribution, comments, and tutorial links are preserved. Standard TensorFlow/Keras examples and tutorial-style code should not be represented as newly invented algorithms. The precise human/AI/tool contribution history is not reconstructed by this archive. No blanket new license is assigned to third-party material. Datasets, pretrained models, and tutorial-derived content retain their own licenses and access requirements; their bytes are not bundled here.
-
-The dataset-maker notebook explicitly links the [TensorFlow DCGAN tutorial](https://www.tensorflow.org/tutorials/generative/dcgan); consult its original notices before redistributing tutorial-derived material.
+Original comments, credits, and tutorial links are retained. Datasets and dependencies have their own licenses; no new blanket license is assigned. The dataset-maker includes material from the [TensorFlow DCGAN tutorial](https://www.tensorflow.org/tutorials/generative/dcgan).
