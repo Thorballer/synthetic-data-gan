@@ -1,6 +1,6 @@
 {
   "project": "synthetic-data-gan",
-  "packaging_note": "Original source downloaded from the authenticated Kaggle account; code not rewritten. Documentation added for portfolio organization. Downloaded Kaggle notebooks generally omit executed outputs. Last run timestamps are source metadata, not authorship or publication dates.",
+  "packaging_note": "Original source and saved outputs retained in the pre-cleanup Git history and linked sources. Published notebooks have comment and formatting cleanup only; executable ASTs, outputs, metadata, and cell order were checked unchanged. Training was not rerun.",
   "sources": [
     {
       "file": "notebooks/cifar-10-tester-1-5-fake-data.ipynb",
@@ -20,9 +20,12 @@
       "source_id": 69587735,
       "last_run_time": "2024-12-07 23:03:34.917000",
       "original_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
-      "published_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
+      "published_sha256": "9b2fceeb131cf76f152fcbf194f80a96e5dc020d69f9bc417d109ea422c638f2",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/cifar-dcgan-1-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/cifar-dcgan-2-5.ipynb",
@@ -31,9 +34,12 @@
       "source_id": 72467154,
       "last_run_time": "2024-12-07 23:06:18.093000",
       "original_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
-      "published_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
+      "published_sha256": "9b2fceeb131cf76f152fcbf194f80a96e5dc020d69f9bc417d109ea422c638f2",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/cifar-dcgan-2-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/cifar-dcgan-3-5.ipynb",
@@ -42,9 +48,12 @@
       "source_id": 72471148,
       "last_run_time": "2024-12-08 00:14:13.137000",
       "original_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
-      "published_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
+      "published_sha256": "9b2fceeb131cf76f152fcbf194f80a96e5dc020d69f9bc417d109ea422c638f2",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/cifar-dcgan-3-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/cifar-dcgan-4-5.ipynb",
@@ -53,9 +62,12 @@
       "source_id": 72471202,
       "last_run_time": "2024-12-08 00:17:29.320000",
       "original_sha256": "218a9ccf80b4d766e067575613c57d6429a6782556b3bdc73b9b222eb1f6b6fe",
-      "published_sha256": "218a9ccf80b4d766e067575613c57d6429a6782556b3bdc73b9b222eb1f6b6fe",
+      "published_sha256": "4d221f50e14c276d84742514cd1018461f1fb569a400ac0c9344d551e9c0bc6e",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/cifar-dcgan-4-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/cifar-dcgan-5-5.ipynb",
@@ -64,9 +76,12 @@
       "source_id": 72472600,
       "last_run_time": "2024-12-08 01:23:17.480000",
       "original_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
-      "published_sha256": "520d494a19729d1a289f85050b2a892ea01dc065ca16b0c82401977a360f4e81",
+      "published_sha256": "9b2fceeb131cf76f152fcbf194f80a96e5dc020d69f9bc417d109ea422c638f2",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/cifar-dcgan-5-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/cifar-tester-1-5-real-data.ipynb",
@@ -174,9 +189,12 @@
       "source_id": 71941578,
       "last_run_time": "2024-12-02 00:59:16.607000",
       "original_sha256": "2837f769de2d08039c3da7a5352d1c5fbc4b3fe783aa40c8f94aa01f018b967f",
-      "published_sha256": "2837f769de2d08039c3da7a5352d1c5fbc4b3fe783aa40c8f94aa01f018b967f",
+      "published_sha256": "eb688abe366e3b5637ec9c64577c471bbd91b65cc1aae8b1c9e9b3efc85f2f4a",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/mnist-dcgan-1-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/mnist-dcgan-2-5.ipynb",
@@ -185,9 +203,12 @@
       "source_id": 72063557,
       "last_run_time": "2024-12-02 00:56:41.703000",
       "original_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
-      "published_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
+      "published_sha256": "7ac13cb4f420b9553c16a40c5ba2694167660c85acf275176dbbf9674d9b3ef5",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/mnist-dcgan-2-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/mnist-dcgan-3-5.ipynb",
@@ -196,9 +217,12 @@
       "source_id": 72063695,
       "last_run_time": "2024-12-02 01:39:08.060000",
       "original_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
-      "published_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
+      "published_sha256": "7ac13cb4f420b9553c16a40c5ba2694167660c85acf275176dbbf9674d9b3ef5",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/mnist-dcgan-3-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/mnist-dcgan-4-5.ipynb",
@@ -207,9 +231,12 @@
       "source_id": 72063730,
       "last_run_time": "2024-12-02 01:39:38.487000",
       "original_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
-      "published_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
+      "published_sha256": "7ac13cb4f420b9553c16a40c5ba2694167660c85acf275176dbbf9674d9b3ef5",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/mnist-dcgan-4-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/mnist-dcgan-5-5.ipynb",
@@ -218,9 +245,12 @@
       "source_id": 72063769,
       "last_run_time": "2024-12-02 02:19:17.433000",
       "original_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
-      "published_sha256": "661b19ccc8c9e282f646d8819d7caea27439ac3b1e3b5b855233e40733b31a5d",
+      "published_sha256": "7ac13cb4f420b9553c16a40c5ba2694167660c85acf275176dbbf9674d9b3ef5",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/mnist-dcgan-5-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/mnist-tester-1-5-fake-data.ipynb",
@@ -339,9 +369,12 @@
       "source_id": 72469323,
       "last_run_time": "2024-12-08 02:58:53.293000",
       "original_sha256": "ccdf199a5191aee6c839458b411c4c68d7cca2990fe942147ee2ba6803680ac4",
-      "published_sha256": "ccdf199a5191aee6c839458b411c4c68d7cca2990fe942147ee2ba6803680ac4",
+      "published_sha256": "e883eec876a73df4fb1c6bb254ec470dd858a33a7a14f944038c8827a2ec8690",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/rps-dcgan-1-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/rps-dcgan-2-5.ipynb",
@@ -350,9 +383,12 @@
       "source_id": 72474733,
       "last_run_time": "2024-12-08 02:58:56.307000",
       "original_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
-      "published_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
+      "published_sha256": "c9fb9c57d4624c83f5f5a65e79a4924e9b9a7b1a7ee2a24b2f38162589448b0b",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/rps-dcgan-2-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/rps-dcgan-3-5.ipynb",
@@ -361,9 +397,12 @@
       "source_id": 72474758,
       "last_run_time": "2024-12-08 02:44:34.313000",
       "original_sha256": "8126c1461e3b0190cf963d780d0210f2a126d7b6ce209a523d76938f83931a81",
-      "published_sha256": "8126c1461e3b0190cf963d780d0210f2a126d7b6ce209a523d76938f83931a81",
+      "published_sha256": "3b1636ee386b1eb0fe18409be33f531dcbc5b1395ba02938c9e3b553d444302e",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/rps-dcgan-3-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/rps-dcgan-4-5.ipynb",
@@ -372,9 +411,12 @@
       "source_id": 72477421,
       "last_run_time": "2024-12-08 03:58:55.903000",
       "original_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
-      "published_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
+      "published_sha256": "c9fb9c57d4624c83f5f5a65e79a4924e9b9a7b1a7ee2a24b2f38162589448b0b",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/rps-dcgan-4-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/rps-dcgan-5-5.ipynb",
@@ -383,9 +425,12 @@
       "source_id": 72477451,
       "last_run_time": "2024-12-08 03:59:01.677000",
       "original_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
-      "published_sha256": "f4ce509ef908cb2ee9f9657d426807816c25008130cba8e62a91824c65c0ef8b",
+      "published_sha256": "c9fb9c57d4624c83f5f5a65e79a4924e9b9a7b1a7ee2a24b2f38162589448b0b",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/rps-dcgan-5-5.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/rps-tester-1-5-fake-data.ipynb",
@@ -504,9 +549,12 @@
       "source_id": 66967745,
       "last_run_time": "2024-10-06 18:13:56.113000",
       "original_sha256": "5bbf95a86de9b7af4955addfdcca8a3bae8c22ce5cc06680028046ef8f022694",
-      "published_sha256": "5bbf95a86de9b7af4955addfdcca8a3bae8c22ce5cc06680028046ef8f022694",
+      "published_sha256": "0b0f9d286e12b8911378b511a3b663cc1d534b0e7df904be2210e3a27dd17144",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/synthetic-mnist-cnn-model.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     },
     {
       "file": "notebooks/synthetic-mnist-supervised-training-dataset-maker.ipynb",
@@ -515,9 +563,12 @@
       "source_id": 66906769,
       "last_run_time": "2024-10-06 00:34:29.763000",
       "original_sha256": "637197372146320dfb7ef78f9f1d70af5f108851eea7d6dec191b4d484ce7d2a",
-      "published_sha256": "637197372146320dfb7ef78f9f1d70af5f108851eea7d6dec191b4d484ce7d2a",
+      "published_sha256": "d4e0901d1980d0b0513e99883b2938391f8e4364b2395394c6d8719379d19bd4",
       "redactions": [],
-      "executed_outputs_present": false
+      "executed_outputs_present": false,
+      "pre_cleanup_commit": "91c26a4856d6fe2b19b2ae6400b013ea50f32dee",
+      "pre_cleanup_url": "https://github.com/Thorballer/synthetic-data-gan/blob/91c26a4856d6fe2b19b2ae6400b013ea50f32dee/notebooks/synthetic-mnist-supervised-training-dataset-maker.ipynb",
+      "presentation_edits": "Comments and whitespace only; executable AST and saved outputs unchanged."
     }
   ]
 }
