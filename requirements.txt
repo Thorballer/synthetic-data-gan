@@ -1,0 +1,11 @@
+# Imported packages, not a tested or version-pinned environment.
+Pillow
+imageio
+ipython
+keras
+matplotlib
+numpy
+opencv-python
+tensorflow
+tensorflow-datasets
+tensorflow-docs
